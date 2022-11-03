@@ -34,8 +34,9 @@ match event:
         webbrowser.open_new("https://www.youtube.com/playlist?list=WL")
     case "play video games(imagine)":
         os.system("C:/Users/jonas/Desktop/steam.lnk")
-    case "do some things to help my dad":
+    case "do some things to help my dad out":
         window.close()
+        webbrowser.open_new("http://127.0.0.1:1880/")
         os.system("node-red")
     case "nothing":
         os.system("shutdown /p")
